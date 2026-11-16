@@ -191,3 +191,18 @@ a { color: var(--accent); }
 .pub .authors strong { color: var(--accent); }
 .pub .venue { font-style: normal; color: var(--muted); }
 footer p:first-child::before { content: "[ok] "; color: var(--accent); }
+
+
+/* ===== Research themes, selected publications, calls to action ===== */
+.hero-links { margin: 1.5rem 0 0; font-family: var(--sans); font-size: 0.9rem; }
+.hero-links a { display: inline-block; margin: 0 1.5rem 0.4rem 0; }
+.hero-links a::before { content: "\2192\00a0"; }
+.theme { margin: 0 0 1.4rem; padding-left: 1rem; border-left: 2px solid var(--rule); }
+.theme h3 { margin: 0 0 0.3rem; font-size: 1rem; font-weight: 600; color: #E6FFEC; }
+.theme p { margin: 0 0 0.35rem; }
+.theme .refs { color: var(--muted); font-size: 0.9rem; }
+.pub .why { display: block; margin: 0.3rem 0; line-height: 1.5; }
+.entries a { text-decoration-thickness: 1px; }
+.callout { border: 1px solid var(--accent); background: var(--accent-soft); padding: 1rem 1.1rem; margin: 0 0 1.5rem; border-radius: 2px; }
+.callout ul { margin: 0 0 1rem; padding-left: 1.2rem; line-height: 1.6; }
+.callout p:last-child { margin-bottom: 0; }

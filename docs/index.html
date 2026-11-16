@@ -18,6 +18,7 @@
       <p class="role">Associate Professor, Cluster for Cybersecurity, Cloud computing and Software Engineering, Department of Computer Science, OsloMet – Oslo Metropolitan University.</p>
       <p class="role">Associate Professor II, Digital Security Group, Department of Computer Science, University of Oslo.</p>
       <p class="lede">Research on how software handles personal data, and how to make that handling transparent, accountable and controllable by the people it concerns.</p>
+      <p class="hero-links"><a href="#teaching">Thesis supervision</a><a href="#collaborate">Research and industry collaboration</a></p>
     </div>
   </header>
 
@@ -28,9 +29,11 @@
           <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#research">Research</a></li>
+            <li><a href="#selected">Selected publications</a></li>
+            <li><a href="#teaching">Teaching and thesis supervision</a></li>
+            <li><a href="#collaborate">Collaboration</a></li>
             <li><a href="#grants">Projects and grants</a></li>
-            <li><a href="#publications">Publications</a></li>
-            <li><a href="#teaching">Teaching</a></li>
+            <li><a href="#publications">Full publication list</a></li>
             <li><a href="#supervision">Supervision</a></li>
             <li><a href="#service">Leadership and service</a></li>
             <li><a href="#awards">Awards</a></li>
@@ -47,7 +50,6 @@
           <li><a href="https://www.linkedin.com/in/momennurul/">LinkedIn</a></li>
           <li><a href="https://www.oslomet.no/en/about/employee/numom4316/">OsloMet profile</a></li>
           <li><a href="https://www.mn.uio.no/ifi/?vrtx=person-view&amp;uid=nurulm&amp;lang=en">UiO profile</a></li>
-          <!-- <li><a href="https://scholar.google.com/citations?user=YOUR_ID">Google Scholar</a></li> -->
         </ul>
       </div>
     </aside>
@@ -61,7 +63,27 @@
 
       <section id="research" aria-labelledby="research-h">
         <h2 id="research-h">Research</h2>
-        <p>His work sits where security, privacy and people meet: measuring what apps actually do with personal data, designing consent that people can meaningfully act on, and building privacy and security into systems, including AI. His doctoral research introduced ways to measure and expose the data access behaviour of mobile apps, and his later work extends to partial consent, digital sovereignty and collaborative AI engineering.</p>
+        <p>His work sits where security, privacy and people meet. It follows four connected themes.</p>
+        <div class="theme">
+          <h3>Measuring what apps do with personal data</h3>
+          <p>A permission says what an app may access, not what it actually does. This work monitors the real data access behaviour of mobile apps and turns it into evidence that users, developers and regulators can act on.</p>
+          <p class="refs">See: <a href="https://doi.org/10.1109/MSEC.2019.2938445">app privacy before and after the GDPR</a> (2019), <a href="https://doi.org/10.1007/s10664-020-09934-4">COVID-19 contact tracing apps</a> (2021), <a href="https://hdl.handle.net/11250/4057055">PhD thesis</a> (2020).</p>
+        </div>
+        <div class="theme">
+          <h3>Consent that people can act on</h3>
+          <p>Permission dialogs usually offer two answers, accept or decline. This work designs and tests alternatives, such as partial consent and privacy indicators, that give people a real choice.</p>
+          <p class="refs">See: <a href="https://doi.org/10.1145/3381991.3395603">partial consent for Android permissions</a> (2020), <a href="https://doi.org/10.1007/978-3-030-90238-4_15">user preferences for informed consent</a> (2021).</p>
+        </div>
+        <div class="theme">
+          <h3>Digital identity</h3>
+          <p>The data that apps collect through permissions can be combined into partial identities of their users. This work studies how such identities arise and what they reveal.</p>
+          <p class="refs">See: <a href="https://doi.org/10.18420/sicherheit2020_01">app-generated digital identities</a> (2020).</p>
+        </div>
+        <div class="theme">
+          <h3>Digital sovereignty and trustworthy AI engineering</h3>
+          <p>Organisations that build AI together must share data and models. This work studies how contributors keep control over what they share, through data marketplaces, licensing and governance mechanisms.</p>
+          <p class="refs">See: <a href="https://doi.org/10.1109/access.2025.3647085">digital sovereignty survey</a> (2025), <a href="https://doi.org/10.1145/3719384.3719395">licence management for collaborative AI</a> (2024), <a href="https://doi.org/10.1145/3590777.3590794">ViSDM data marketplace</a> (2023).</p>
+        </div>
         <ul class="interests">
           <li>Privacy engineering</li>
           <li>Privacy-enhancing technologies</li>
@@ -75,21 +97,107 @@
         </ul>
       </section>
 
+      <section id="selected" aria-labelledby="selected-h">
+        <h2 id="selected-h">Selected publications</h2>
+        <ol class="pubs">
+          <li class="pub">
+            <span class="year">2025</span>
+            <div>
+              <span class="title">Digital Sovereignty for Collaborative AI Engineering: A Survey</span>
+              <span class="authors">V. S. S. A. Daliparthi, K. Tutschku, V. R. Kebande, <strong>N. Momen</strong></span>
+              <span class="venue">IEEE Access, vol. 13</span>
+              <span class="why">Surveys what digital sovereignty requires when several parties engineer AI together, and the mechanisms proposed to achieve it.</span>
+              <a class="doi" href="https://doi.org/10.1109/access.2025.3647085">doi:10.1109/access.2025.3647085</a>
+            </div>
+          </li>
+          <li class="pub">
+            <span class="year">2021</span>
+            <div>
+              <span class="title">A privacy and security analysis of early-deployed COVID-19 contact tracing Android apps</span>
+              <span class="authors">M. Hatamian, S. Wairimu, <strong>N. Momen</strong>, L. Fritsch</span>
+              <span class="venue">Empirical Software Engineering, vol. 26</span>
+              <span class="why">Analyses the privacy and security of the first contact tracing apps, which were deployed to the public under time pressure.</span>
+              <a class="doi" href="https://doi.org/10.1007/s10664-020-09934-4">doi:10.1007/s10664-020-09934-4</a>
+            </div>
+          </li>
+          <li class="pub">
+            <span class="year">2020</span>
+            <div>
+              <span class="title">Accept – Maybe – Decline: Introducing Partial Consent for the Permission-based Access Control Model of Android</span>
+              <span class="authors"><strong>N. Momen</strong>, S. Bock, L. Fritsch</span>
+              <span class="venue">ACM SACMAT ’20</span>
+              <span class="why">Adds a third answer to Android permission requests, so that access no longer has to be all or nothing.</span>
+              <a class="doi" href="https://doi.org/10.1145/3381991.3395603">doi:10.1145/3381991.3395603</a>
+            </div>
+          </li>
+          <li class="pub">
+            <span class="year">2020</span>
+            <div>
+              <span class="title">App-generated digital identities extracted through Android permission-based data access – a survey of app privacy</span>
+              <span class="authors"><strong>N. Momen</strong>, L. Fritsch</span>
+              <span class="venue">SICHERHEIT 2020</span>
+              <span class="why">Shows how the data reachable through Android permissions adds up to digital identities of the people using the apps.</span>
+              <a class="doi" href="https://doi.org/10.18420/sicherheit2020_01">doi:10.18420/sicherheit2020_01</a>
+            </div>
+          </li>
+          <li class="pub">
+            <span class="year">2019</span>
+            <div>
+              <span class="title">Did App Privacy Improve After the GDPR?</span>
+              <span class="authors"><strong>N. Momen</strong>, M. Hatamian, L. Fritsch</span>
+              <span class="venue">IEEE Security &amp; Privacy, vol. 17, no. 6</span>
+              <span class="why">Examines whether Android apps handled personal data differently once the GDPR came into force.</span>
+              <a class="doi" href="https://doi.org/10.1109/MSEC.2019.2938445">doi:10.1109/MSEC.2019.2938445</a>
+            </div>
+          </li>
+        </ol>
+        <p class="note">The <a href="#publications">full publication list</a> is further down.</p>
+      </section>
+
+      <section id="teaching" aria-labelledby="teaching-h">
+        <h2 id="teaching-h">Teaching and thesis supervision</h2>
+        <h3 class="sub">Courses at OsloMet</h3>
+        <ul class="entries">
+          <li><span class="year">2026/27</span><div><a href="https://student.oslomet.no/studier/-/studieinfo/emne/ACIT4013/2026/H%C3%98ST">ACIT4013 Cloud Security</a><span class="detail">10 ECTS. Course contact person. Protecting data, applications and infrastructure in cloud environments.</span></div></li>
+          <li><span class="year">2025, 2026</span><div><a href="https://student.oslomet.no/studier/-/studieinfo/emne/ACIT4050/2026/H%C3%98ST">ACIT4050 Applied Computer and Network Security</a><span class="detail">10 ECTS. Course manager and main teacher. Penetration testing, cyber defence and analysis of real security incidents.</span></div></li>
+          <li><span class="year">2025, 2026</span><div><a href="https://student.oslomet.no/studier/-/studieinfo/emne/ACIT4055/2026/H%C3%98ST">ACIT4055 Security Politics, Cyberwar, and Ethics</a><span class="detail">10 ECTS. Teacher. Legal, political, ethical and strategic aspects of cybersecurity and cyber conflict.</span></div></li>
+          <li><span class="year">2025</span><div>STKD6610 Technology and Society<span class="detail">Teacher.</span></div></li>
+        </ul>
+        <h3 class="sub">Thesis supervision</h3>
+        <div class="callout">
+          <p>Master’s students who want to write a thesis in privacy or security are welcome to get in touch. Typical topic areas:</p>
+          <ul>
+            <li>Privacy analysis of mobile apps: what data they access and where it goes</li>
+            <li>Consent, permissions and privacy indicators, including user studies</li>
+            <li>Digital identity and identity management</li>
+            <li>Data protection and GDPR compliance in software</li>
+            <li>Privacy and security of AI systems, and digital sovereignty</li>
+            <li>Cloud, computer and network security</li>
+          </ul>
+          <p>Send a short email to <a href="mailto:nurul.momen@oslomet.no">nurul.momen@oslomet.no</a> with the topic you have in mind, the relevant courses you have taken and when you plan to start. Your own topic ideas are welcome.</p>
+        </div>
+        <h3 class="sub">Earlier teaching</h3>
+        <ul class="entries">
+          <li><span class="year">2025</span><div>Kristiania University College: PhD course Advanced Topics in Cyber Security (PIT9212-CS)</div></li>
+          <li><span class="year">2024</span><div>Kristiania University College: Security Team Lead and Project Management (STP5100); End-point and Cloud Security (MC101), course manager</div></li>
+          <li><span class="year">2020–2024</span><div>Blekinge Institute of Technology: Software Security and Computer Security, course manager<span class="detail">Software Security designed and delivered for industry professionals as well as campus students</span></div></li>
+          <li><span class="year">2016–2020</span><div>Karlstad University: security, web standards, GUI programming, software architecture project, introductory programming</div></li>
+        </ul>
+        <p>Pedagogic training: Teaching in Higher Education I (Karlstad University, 2018) and II (Blekinge Institute of Technology, 2021), 7.5 ECTS each.</p>
+      </section>
+
+      <section id="collaborate" aria-labelledby="collab-h">
+        <h2 id="collab-h">Research and industry collaboration</h2>
+        <h3 class="sub">Researchers</h3>
+        <p>Open to joint studies, papers and project proposals within the themes above, including national and European calls. If you are putting together a consortium or a study and need a partner in privacy engineering or security, get in touch.</p>
+        <h3 class="sub">Companies</h3>
+        <p>The Research Council of Norway’s <a href="https://www.forskningsradet.no/en/financing/what/industrial-phd">Industrial PhD scheme</a> (Nærings-ph.d.) lets a company build research capacity in-house. An employee carries out a three- to four-year doctoral project on a problem that matters to the company, enrolled at a degree-conferring university with an academic supervisor. The Research Council funds up to half of the approved project costs. The 2026 call is open-ended: applications are processed as they arrive, until the budget is used up (<a href="https://www.forskningsradet.no/en/call-for-proposals/2026/industrial-phd-scheme-doctoral-projects-industry-2026/">call text in English</a>, <a href="https://www.forskningsradet.no/utlysninger/2026/narings-phd-doktorgradsprosjekt-bedrift-2026/" hreflang="nb">på norsk</a>).</p>
+        <p>If your company works on privacy, data protection or security and is considering such a project, get in touch to discuss a topic and academic supervision. Companies are also welcome to propose master’s thesis topics, which is a smaller first step towards working together.</p>
+        <p>Contact: <a href="mailto:nurul.momen@oslomet.no">nurul.momen@oslomet.no</a></p>
+      </section>
+
       <section id="grants" aria-labelledby="grants-h">
         <h2 id="grants-h">Projects and grants</h2>
-        <!--
-          PANDA and GUARDIAN are not in the CV (last updated 2 November 2026).
-          Uncomment and complete these once you confirm they should be public.
-        <div class="project">
-          <h3>PANDA</h3>
-          <p>Proactive Assurance of Normative Digital Accountability</p>
-          <p class="meta">Project lead. Research Council of Norway, FRIPRO Early Career Researcher Project.</p>
-        </div>
-        <div class="project">
-          <h3>GUARDIAN</h3>
-          <p class="meta">Consortium member. Horizon Europe.</p>
-        </div>
-        -->
         <ul class="entries">
           <li><span class="year">2023–2027</span><div>dAIEDGE, EU research and innovation action (grant agreement No. 101120726)<span class="detail">Co-PI and task leader for Blekinge Institute of Technology. Total project volume €14.4 million.</span></div></li>
           <li><span class="year">2020–2023</span><div>Bonsapps / Bonseyes, EU Horizon 2020 (grant agreement No. 101015848)<span class="detail">Subject matter expert for Blekinge Institute of Technology: investigation, implementation, supervision and management.</span></div></li>
@@ -99,7 +207,7 @@
       </section>
 
       <section id="publications" aria-labelledby="pubs-h">
-        <h2 id="pubs-h">Publications</h2>
+        <h2 id="pubs-h">Full publication list</h2>
         <h3 class="sub">Journal articles</h3>
         <ol class="pubs">
           <li class="pub">
@@ -339,25 +447,6 @@
           <li><span class="year">2020</span><div>Privacy for mobile apps: Technical, regulatory and human challenges. AFSecurity seminar, University of Oslo</div></li>
           <li><span class="year">2019</span><div>A Curious Case of Consent Button (with L. Fritsch). HotPETs, PETS Symposium, Stockholm</div></li>
         </ul>
-      </section>
-
-      <section id="teaching" aria-labelledby="teaching-h">
-        <h2 id="teaching-h">Teaching</h2>
-        <h3 class="sub">OsloMet</h3>
-        <ul class="entries">
-          <li><span class="year">2026/27</span><div>ACIT4013 Cloud Security (course contact person)</div></li>
-          <li><span class="year">2025, 2026</span><div>ACIT4050 Applied Computer and Network Security (course manager and main teacher)</div></li>
-          <li><span class="year">2025, 2026</span><div>ACIT4055 Security Politics, Cyberwar, and Ethics</div></li>
-          <li><span class="year">2025</span><div>STKD6610 Technology and Society</div></li>
-        </ul>
-        <h3 class="sub">Earlier teaching</h3>
-        <ul class="entries">
-          <li><span class="year">2025</span><div>Kristiania University College: PhD course Advanced Topics in Cyber Security (PIT9212-CS)</div></li>
-          <li><span class="year">2024</span><div>Kristiania University College: Security Team Lead and Project Management (STP5100); End-point and Cloud Security (MC101), course manager</div></li>
-          <li><span class="year">2020–2024</span><div>Blekinge Institute of Technology: Software Security and Computer Security, course manager<span class="detail">Software Security designed and delivered for industry professionals as well as campus students</span></div></li>
-          <li><span class="year">2016–2020</span><div>Karlstad University: security, web standards, GUI programming, software architecture project, introductory programming</div></li>
-        </ul>
-        <p>Pedagogic training: Teaching in Higher Education I (Karlstad University, 2018) and II (Blekinge Institute of Technology, 2021), 7.5 ECTS each.</p>
       </section>
 
       <section id="supervision" aria-labelledby="supervision-h">
